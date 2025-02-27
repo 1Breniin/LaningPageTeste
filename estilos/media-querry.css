@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+    nav{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #matricula, #horarios{
+        width: 100%;
+        padding: 20px;
+    }
+
+    #servicos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    th, td{
+        padding: 5px;
+    }
+}
+
+/* Media Query para telas menores que 480px */
+@media screen and (max-width: 480px) {
+    h1, h2, h3, h4{
+        font-size: smaller;
+    }
+
+    nav > a{
+        padding: 10px;
+    }
+
+    #matricula, #horarios{
+        padding: 10px;
+    }
+
+    table{
+        font-size: smaller;
+    }
+}

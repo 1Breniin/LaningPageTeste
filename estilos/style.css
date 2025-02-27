@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+*{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+}
+
+nav{
+    margin: 10px;
+    background-color: #1e633b;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    font-weight: bold;
+    font-weight: bold; 
+}
+
+nav > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: auto;
+}
+
+nav > a:hover{
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-decoration: solid;
+    color: #1e633b;
+}
+
+
+main{
+    background-color: white;
+    color: black;
+    min-width: 320px;
+    max-width: 900px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+main > h1{
+    text-align: center;
+}
+
+main > p{
+    text-align: center;
+}
+
+section{
+    line-height: 2em;
+    padding-left: 30px;
+    padding-top: 450px;
+    text-align: center;
+}
+
+#matricula{
+    position: relative;
+    left:50%;
+    right: 75%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 90vw;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#matricula h3{
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1e633b;
+    color: rgb(255, 255, 255);
+}
+
+#matricula aside{
+    background-color: white;
+    color: black;
+    min-width: px;
+    max-width: 900px;
+
+
+}
+
+article{
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+aside{
+    text-align: justify;
+    flex-wrap: wrap;
+    padding: 10px;
+    color: rgb(53, 53, 53);
+    text-indent: 5px;
+}
+
+aside > h2{
+    color: black;
+}
+
+aside > h3{
+    margin: 10px;
+}
+
+aside > h4{
+    padding: 10px;
+    font-size: medium;
+}
+
+#horarios {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+    background-color: #1e633b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+#horarios h2{
+    text-align: center;
+    color: white;
+}
+
+#horarios table{
+    margin: 0px;
+    padding: 30px;
+}
+
+#horarios > aside{
+        text-align: justify;
+        flex-wrap: wrap;
+        padding: 10px;
+        color: rgb(221, 221, 221);
+        text-indent: 5px;
+
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 500px;
+    border: 1px solid #000;
+}
+
+
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+th, td{
+    text-align: center;
+    padding-inline: 50px;
+    padding-block: 10px;
+}
+
+#card-servicos{
+    margin: 50px;
+    text-align: center;
+    
+}
+
+#card-servicos h2{
+    text-decoration: underline;
+}
+
+#servicos{
+    margin: 50px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1e633b;
+    color: white;
+    border-radius: 20px;
+}
+
+#card-moto img{
+    width: 50px;
+    height: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 300px;
+}
+
+#card-moto img:hover{
+    background-color: #0c2b19;
+}
+
+#card-carro img{
+    width: 50px;
+    height: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 300px
+
+}
+
+#card-carro img:hover{
+    background-color: #0c2b19;
+}
+
+#card-aula img{
+    width: 50px;
+    height: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 300px
+
+}
+
+#card-aula img:hover{
+    background-color: #0c2b19;
+}
+
+#card-curso img{
+    width: 50px;
+    height: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 300px
+
+}
+
+#card-curso img:hover{
+    background-color: #0c2b19;
+    
+}
+
+
+footer{
+    margin: auto;
+    width: 100vw;
+    background-color: #0c2b19;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer > h4{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+
