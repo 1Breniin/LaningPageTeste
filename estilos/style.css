@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 *{
-
+    margin: 0;
+    padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -116,22 +117,12 @@ aside > h2{
     color: black;
 }
 
-aside > h3{
-    margin: 10px;
-}
-
 aside > h4{
     padding: 10px;
     font-size: medium;
 }
 
 #horarios {
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    width: 100vw;
     background-color: #1e633b;
     color: white;
     display: flex;
@@ -140,35 +131,26 @@ aside > h4{
     justify-content: center;
     text-align: center;
     border-radius: 10px;
-    padding: 20px;
   }
 
 #horarios h2{
     text-align: center;
     color: white;
+    padding: 20px;
 }
 
 #horarios table{
-    margin: 0px;
-    padding: 30px;
+    padding: 10px;
 }
 
 #horarios > aside{
         text-align: justify;
         flex-wrap: wrap;
-        padding: 10px;
+        padding: 20px;
         color: rgb(221, 221, 221);
         text-indent: 5px;
 
 }
-
-table{
-    border-collapse: collapse;
-    text-align: center;
-    width: 500px;
-    border: 1px solid #000;
-}
-
 
 caption{
     font-size: 1.5em;
@@ -178,7 +160,7 @@ caption{
 
 th, td{
     text-align: center;
-    padding-inline: 50px;
+    padding-inline: 25px;
     padding-block: 10px;
 }
 
@@ -260,17 +242,19 @@ th, td{
 
 
 footer{
-    margin: auto;
-    width: 100vw;
     background-color: #0c2b19;
     color: white;
     text-align: center;
-    padding: 10px;
 }
 
 footer > h4{
+    padding: 30px;
     font-size: 20px;
     text-decoration: underline;
+}
+
+footer > p{
+    padding-bottom: 20px;
 }
 
 
