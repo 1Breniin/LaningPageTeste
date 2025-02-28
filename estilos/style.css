@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html {
@@ -100,9 +100,12 @@ section{
 }
 
 article{
+
+    
     color: black;
-    padding: 10px;
     text-align: center;
+    padding-left: 150px;
+    padding-bottom: 50px;
 }
 
 aside{
@@ -170,10 +173,6 @@ th, td{
     
 }
 
-#card-servicos h2{
-    text-decoration: underline;
-}
-
 #servicos{
     margin: 50px;
     padding: 30px;
@@ -182,7 +181,6 @@ th, td{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    text-align: center;
     background-color: #1e633b;
     color: white;
     border-radius: 20px;
@@ -194,10 +192,15 @@ th, td{
     background-color: #ffffff;
     padding: 10px;
     border-radius: 300px;
+    flex-basis: 200px;
 }
 
 #card-moto img:hover{
     background-color: #0c2b19;
+}
+
+#card-moto h3{
+    padding-bottom: 50px;
 }
 
 #card-carro img{
@@ -205,7 +208,8 @@ th, td{
     height: auto;
     background-color: #ffffff;
     padding: 10px;
-    border-radius: 300px
+    border-radius: 300px;
+    flex-basis: 200px;
 
 }
 
@@ -213,12 +217,17 @@ th, td{
     background-color: #0c2b19;
 }
 
+#card-carro h3{
+    padding-bottom: 50px;
+}
+
 #card-aula img{
     width: 50px;
     height: auto;
     background-color: #ffffff;
     padding: 10px;
-    border-radius: 300px
+    border-radius: 300px;
+    flex-basis: 200px;
 
 }
 
@@ -226,18 +235,28 @@ th, td{
     background-color: #0c2b19;
 }
 
+#card-aula h3{
+    padding-bottom: 50px;
+}
+
 #card-curso img{
     width: 50px;
     height: auto;
     background-color: #ffffff;
     padding: 10px;
-    border-radius: 300px
+    border-radius: 300px;
+    flex-basis: 200px;
+    
 
 }
 
 #card-curso img:hover{
     background-color: #0c2b19;
     
+}
+
+#card-curso h3{
+    padding-bottom: 50px;
 }
 
 
