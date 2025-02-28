@@ -24,6 +24,10 @@
     th, td{
         padding: 7px;
     }
+
+    #card-curso h3{
+        padding-bottom: 0px;
+    }
 }
 
 @media screen and (max-width: 480px) {
