@@ -269,11 +269,22 @@ footer{
 footer > h4{
     padding: 30px;
     font-size: 20px;
-    text-decoration: underline;
 }
 
 footer > p{
     padding-bottom: 20px;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover{
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-decoration: solid;
+    color: #1e633b;
 }
 
 
